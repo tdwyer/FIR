@@ -32,15 +32,15 @@
     "model": "incidents.label",
     "fields": {
         "group": 4,
-        "name": "CERT"
-    }
+        "name": "AMP for Endpoint"
+
 },
 {
     "pk": 2,
     "model": "incidents.label",
     "fields": {
         "group": 4,
-        "name": "External"
+        "name": "Cisco Umbrella"
     }
 },
 {
@@ -176,7 +176,7 @@
     "model": "incidents.label",
     "fields": {
         "group": 4,
-        "name": "BL"
+        "name": "FireSIGHT"
     }
 },
 {
@@ -184,7 +184,7 @@
     "model": "incidents.label",
     "fields": {
         "group": 4,
-        "name": "SOC"
+        "name": "AlienVault OSSIM 10.1.1.164"
     }
 },
 {
@@ -588,6 +588,14 @@
         "name": "Security Assess.",
         "is_major": false,
         "bale_subcategory": 3
+    }
+},
+{
+    "pk": 25,
+    "model": "incidents.label",
+    "fields": {
+        "group": 4,
+        "name": "AlienVault OSSIM 10.1.1.174"
     }
 },
 {
